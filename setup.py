@@ -16,13 +16,14 @@ DESCRIPTION = "misc tools to make working with python virtualenv easier"
 AUTHOR = "Banio Carpenter"
 AUTHOR_EMAIL = "banio@mncarpenters.net"
 URL = "https://github.com/ranamalo/vmtools.git"
-VERSION = "0.39"
+VERSION = "0.44"
 
 setup(
     name=NAME,
     version=VERSION,
     description=DESCRIPTION,
     long_description=read("README.md"),
+    long_description_content_type='text/markdown',
     author=AUTHOR,
     author_email=AUTHOR_EMAIL,
     license="BSD",
