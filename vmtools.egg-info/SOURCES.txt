@@ -1,4 +1,3 @@
-README.txt
 setup.py
 vmtools/__init__.py
 vmtools/vmtools.py
