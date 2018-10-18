@@ -16,7 +16,7 @@ DESCRIPTION = "misc tools to make working with python virtualenv easier"
 AUTHOR = "Banio Carpenter"
 AUTHOR_EMAIL = "banio@mncarpenters.net"
 URL = "https://github.com/ranamalo/vmtools.git"
-VERSION = "0.44"
+VERSION = "0.45"
 
 setup(
     name=NAME,

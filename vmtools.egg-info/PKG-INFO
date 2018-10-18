@@ -1,6 +1,6 @@
-Metadata-Version: 1.1
+Metadata-Version: 2.1
 Name: vmtools
-Version: 0.44
+Version: 0.45
 Summary: misc tools to make working with python virtualenv easier
 Home-page: https://github.com/ranamalo/vmtools.git
 Author: Banio Carpenter
@@ -13,12 +13,12 @@ Description: # vmtools
         Get the current time and return a dictionary with the current time available in various formats
         I use it to be able to find the local_settings.pys file and import all variable from that file.
         
-        ``
+        ```
         import vmtools
         vm_root_path = vmtools.vm_root_grabber()
         sys.path.append(vm_root_path)
         from local_settings import *
-        ``
+        ```
         
         get_time
         Get the current time and return a dictionary with the current time available in various formats
@@ -31,3 +31,4 @@ Classifier: Intended Audience :: Developers
 Classifier: License :: OSI Approved :: BSD License
 Classifier: Operating System :: OS Independent
 Classifier: Programming Language :: Python :: 3.5
+Description-Content-Type: text/markdown
